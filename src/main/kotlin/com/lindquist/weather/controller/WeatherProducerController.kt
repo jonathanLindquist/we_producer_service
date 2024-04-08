@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/v1/weather/producer")
+@RequestMapping("/v1/producer")
 class WeatherProducerController {
     @GetMapping("/health")
     fun health(): ResponseEntity<String> {
