@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="ProducerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Local">
+  <configuration default="false" name="ProducerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <option name="ACTIVE_PROFILES" value="local" />
     <module name="we_producer_service.main" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.lindquist.weather.WeatherPassThroughServiceApplication" />
