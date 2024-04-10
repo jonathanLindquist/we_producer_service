@@ -5,6 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.4"
 	kotlin("jvm") version "1.9.23"
 	kotlin("plugin.spring") version "1.9.23"
+	idea
 }
 
 group = "com.lindquist"
@@ -42,4 +43,11 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
 	useJUnitPlatform()
+}
+
+idea {
+	module {
+		inheritOutputDirs = false
+		outputDir = file("${layout.buildDirectory}/classes/kotlin/main")
+	}
 }
